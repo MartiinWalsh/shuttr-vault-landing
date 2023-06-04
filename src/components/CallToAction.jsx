@@ -7,6 +7,7 @@ export function CallToAction() {
         id="IRyRjys9"
         style={{ width: '100%', height: '600px' }}
         className="my-form"
+        inlineOnMobile={true}
       />
     </div>
   )
