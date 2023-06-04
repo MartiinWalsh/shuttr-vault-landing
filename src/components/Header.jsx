@@ -92,7 +92,13 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-8">
             <Link href="#" aria-label="Home">
-              <img src={'/main-logo.svg'} alt={'logo'} width={150} height={150} />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={'/main-logo.svg'}
+                alt={'logo'}
+                width={150}
+                height={150}
+              />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
