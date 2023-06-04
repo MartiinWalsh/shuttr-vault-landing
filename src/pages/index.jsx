@@ -5,6 +5,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
+import { Feedback } from '@/components/Feedback'
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
         <PrimaryFeatures />
         <CallToAction />
       </main>
+      <Feedback />
       <Footer />
     </>
   )
